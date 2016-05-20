@@ -6,7 +6,7 @@
 
 #header
 {
-	background: #ccc;
+	background: #CC0066;
 	padding: 20px;
 }
 
@@ -58,6 +58,7 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background-color: #C20F74;
 }
 
 #edito h2
@@ -83,13 +84,15 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+	background-color: #CDCFFC;
 }
 
 #footer
 {
 	clear: both;
-	background: #ccc;
+	background: #CC0066;
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+
 }
