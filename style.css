@@ -1,13 +1,23 @@
+.res {
+    width: 100%;
+    height: auto;
+}
 #container
 {
 	margin: 0 30px;
-	background: #fff;
+<<<<<<< HEAD
+=======
+	background: #pink;
 }
-
+body{
+    background-image: url(bg.jpg);
+>>>>>>> 1f2ba2d6f7d08499c6ff5153709a0e732cb79175
+}
 #header
 {
 	background: #ccc;
 	padding: 20px;
+    background-image: url(bg.jpg);
 }
 
 #header h1 { margin: 0; }
@@ -16,7 +26,8 @@
 {
 	float: left;
 	width: 100%;
-	background: #333;
+	background: #pink;
+    background-image: url(bg.jpg);
 }
 
 #navigation ul
@@ -36,12 +47,13 @@
 	display: block;
 	float: left;
 	padding: 5px 10px;
-	color: #fff;
+	color: #pink;
 	text-decoration: none;
 	border-right: 1px solid #fff;
+    background-image: url(bg.jpg);
 }
 
-#navigation li a:hover { background: #383; }
+#navigation li a:hover { background:green; }
 
 #edito
 {
@@ -58,11 +70,12 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+    background-image: url(bg.jpg);
 }
 
 #edito h2
 {
-	color: #000;
+	color:pink;
 	font-size: 160%;
 	margin: 0 0 .5em;
 }
@@ -83,6 +96,11 @@
 	-webkit-background-clip: padding-box;
 	background-clip: padding-box;
 	opacity: 0.83;
+<<<<<<< HEAD
+	color:cyan;
+=======
+    background-image: url("bg.jpg");
+>>>>>>> 1f2ba2d6f7d08499c6ff5153709a0e732cb79175
 }
 
 #footer
@@ -92,4 +110,8 @@
 	text-align: right;
 	padding: 20px;
 	height: 1%;
+    background-image: url(bg.jpg);
+}
+body{
+background:url(dab.jpg);
 }
